@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Aline";
+  src: url("./fonts/Aline.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: "Aline";
+  --secondary-font: "Montserrat";
+}
+
+h1 {
+  font-family: var(--primary-font);
+}
+
+p {
+  font-family: var(--secondary-font);
+}
